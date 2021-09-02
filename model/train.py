@@ -16,8 +16,8 @@ tf.set_random_seed(seed)
 # Settings
 flags = tf.app.flags
 FLAGS = flags.FLAGS
-flags.DEFINE_float('learning_rate', 0.001, 'Initial learning rate.')
-flags.DEFINE_integer('epochs', 5000, 'Number of epochs to train.')
+flags.DEFINE_float('learning_rate', 0.005, 'Initial learning rate.')
+flags.DEFINE_integer('epochs', 2000, 'Number of epochs to train.')
 flags.DEFINE_boolean('load', False, 'Whether load session.')
 flags.DEFINE_integer('output_dim', 96, 'Number of hidden units in gcn.')
 
